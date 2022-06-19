@@ -1,4 +1,29 @@
+/* ===== GOOGLE FONT ===== */
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap");
+
 /* ===== Add the Tailwind directives to your CSS ===== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ===== REUSABLE CSS CLASS ===== */
+@layer components {
+  /* section class */
+  .section {
+    @apply py-28;
+  }
+  .section-title {
+    @apply text-[42px] text-black font-bold leading-title mb-4;
+  }
+  .section-text {
+    @apply text-[19px] text-grey mb-8;
+  }
+
+  /* button class */
+  .button-fill {
+    @apply flex justify-center items-center py-4 px-8 bg-yellow rounded-[1rem] text-[19px] text-black font-bold uppercase;
+  }
+  .button-link {
+    @apply inline-flex items-center text-[19px] text-black font-bold uppercase underline;
+  }
+}
