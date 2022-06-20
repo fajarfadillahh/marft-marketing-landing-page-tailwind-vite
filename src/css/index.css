@@ -70,3 +70,14 @@
 .video__play {
   @apply absolute inline-flex p-4 bg-[rgba(255,255,255,.3)] rounded-full backdrop-blur-sm text-[2rem] text-black cursor-pointer;
 }
+
+/* ===== FEATURE SECTION ===== */
+.feature__content {
+  @apply grid gap-4 p-10 bg-[#eae4dc];
+}
+.feature__content-title {
+  @apply text-[36px] text-black font-bold leading-title mb-4;
+}
+.feature__content-text {
+  @apply text-[18px] text-grey font-medium mb-8;
+}
