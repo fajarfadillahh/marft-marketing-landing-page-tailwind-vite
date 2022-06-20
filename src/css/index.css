@@ -62,3 +62,11 @@
 .about__item-icon {
   @apply inline-flex p-[.1rem] bg-yellow rounded-full text-[1rem] text-black;
 }
+
+/* ===== VIDEO SECTION ===== */
+.video__img {
+  @apply absolute w-full h-full top-0 left-[50%] translate-x-[-50%] object-cover object-center;
+}
+.video__play {
+  @apply absolute inline-flex p-4 bg-[rgba(255,255,255,.3)] rounded-full backdrop-blur-sm text-[2rem] text-black cursor-pointer;
+}
