@@ -124,3 +124,23 @@
 .testimonial__wrapper .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-black bg-opacity-100 rounded-[10rem];
 }
+
+/* ===== BLOG SECTION ===== */
+.blog__content {
+  @apply grid gap-4;
+}
+.blog__content-box {
+  @apply overflow-hidden;
+}
+.blog__content-img {
+  @apply w-full h-full;
+}
+.blog__content-date {
+  @apply inline-flex text-[18px] text-yellow font-bold mb-2;
+}
+.blog__content-title {
+  @apply text-[36px] text-black font-bold leading-title mb-4;
+}
+.blog__content-text {
+  @apply text-[18px] text-grey mb-4;
+}
