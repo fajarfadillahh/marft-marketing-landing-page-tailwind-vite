@@ -50,3 +50,15 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== ABOUT SECTION ===== */
+.about__title,
+.about__text {
+  @apply text-white;
+}
+.about__item {
+  @apply inline-flex items-center gap-2 text-[18px] text-white font-medium;
+}
+.about__item-icon {
+  @apply inline-flex p-[.1rem] bg-yellow rounded-full text-[1rem] text-black;
+}
