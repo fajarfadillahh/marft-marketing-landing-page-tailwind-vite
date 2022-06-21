@@ -35,7 +35,7 @@
   }
 }
 .header__link {
-  @apply text-[18px] text-grey;
+  @apply text-[19px] text-grey;
 }
 .header__link.active-link {
   @apply font-bold text-black;
@@ -57,7 +57,7 @@
   @apply text-white;
 }
 .about__item {
-  @apply inline-flex items-center gap-2 text-[18px] text-white font-medium;
+  @apply inline-flex items-center gap-2 text-[19px] text-white font-medium;
 }
 .about__item-icon {
   @apply inline-flex p-[.1rem] bg-yellow rounded-full text-[1rem] text-black;
@@ -79,7 +79,7 @@
   @apply text-[36px] text-black font-bold leading-title mb-4;
 }
 .feature__content-text {
-  @apply text-[18px] text-grey font-medium mb-8;
+  @apply text-[19px] text-grey font-medium mb-8;
 }
 
 /* ===== TESTIMONIAL SECTION ===== */
@@ -90,7 +90,7 @@
   @apply flex items-center gap-2;
 }
 .testimoninal__content-rate {
-  @apply text-[18px] text-grey;
+  @apply text-[19px] text-grey;
 }
 .testimoninal__content-stars {
   @apply inline-flex items-center gap-[.2rem];
@@ -100,7 +100,7 @@
 }
 .testimoninal__content-comment,
 .testimoninal__content-profession {
-  @apply text-[18px] text-grey;
+  @apply text-[19px] text-grey;
 }
 .testimoninal__content-profile {
   @apply flex items-center gap-4;
@@ -136,13 +136,13 @@
   @apply w-full h-full;
 }
 .blog__content-date {
-  @apply inline-flex text-[18px] text-yellow font-bold mb-2;
+  @apply inline-flex text-[19px] text-yellow font-bold mb-2;
 }
 .blog__content-title {
   @apply text-[36px] text-black font-bold leading-title mb-4;
 }
 .blog__content-text {
-  @apply text-[18px] text-grey mb-4;
+  @apply text-[19px] text-grey mb-4;
 }
 
 /* ===== FOOTER SECTION ===== */
@@ -152,21 +152,17 @@
 .footer__form {
   @apply text-center justify-self-center;
 }
-.footer__form-title,
-.footer__form-text {
-  @apply text-white;
-}
 .footer__form-wrapper {
   @apply flex justify-between items-center gap-2 p-[.3rem] border-2 border-solid border-[rgba(111,111,111,.5)] rounded-[1.5rem];
 }
 .footer__form-input {
-  @apply w-full p-4 bg-transparent text-[18px] text-white font-medium rounded-[1rem];
+  @apply w-full p-4 bg-transparent text-[19px] text-white font-medium rounded-[1rem];
 }
 .footer__form-input::placeholder {
-  @apply text-[18px] text-grey font-medium;
+  @apply text-[19px] text-grey font-medium;
 }
 .footer__list-title {
-  @apply text-[18px] text-grey mb-2;
+  @apply text-[19px] text-grey mb-2;
 }
 .footer__list-text {
   @apply text-[32px] text-grey leading-[100%];
