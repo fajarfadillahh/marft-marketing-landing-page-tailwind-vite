@@ -144,3 +144,30 @@
 .blog__content-text {
   @apply text-[18px] text-grey mb-4;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__data-icon {
+  @apply inline-flex justify-center items-center w-[45px] h-[45px] p-[.2rem] border-[1.5px] border-solid border-[rgba(111,111,111,.5)] rounded-[50%] text-[1.5rem] text-white transition-all duration-400 hover:bg-white hover:text-black;
+}
+.footer__form {
+  @apply text-center justify-self-center;
+}
+.footer__form-title,
+.footer__form-text {
+  @apply text-white;
+}
+.footer__form-wrapper {
+  @apply flex justify-between items-center gap-2 p-[.3rem] border-2 border-solid border-[rgba(111,111,111,.5)] rounded-[1.5rem];
+}
+.footer__form-input {
+  @apply w-full p-4 bg-transparent text-[18px] text-white font-medium rounded-[1rem];
+}
+.footer__form-input::placeholder {
+  @apply text-[18px] text-grey font-medium;
+}
+.footer__list-title {
+  @apply text-[18px] text-grey mb-2;
+}
+.footer__list-text {
+  @apply text-[32px] text-grey leading-[100%];
+}
