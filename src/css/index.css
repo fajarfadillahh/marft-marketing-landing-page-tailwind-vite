@@ -64,12 +64,14 @@
 }
 
 /* ===== ABOUT SECTION ===== */
-.about__title,
-.about__text {
+.about__title {
   @apply text-white;
 }
+.about__text {
+  @apply text-grey;
+}
 .about__item {
-  @apply inline-flex items-center gap-2 text-[19px] text-white font-medium;
+  @apply inline-flex items-center gap-2 text-[19px] text-grey font-medium;
 }
 .about__item-icon {
   @apply inline-flex p-[.1rem] bg-yellow rounded-full text-[1rem] text-black;
@@ -142,7 +144,7 @@
   @apply grid gap-4;
 }
 .blog__content-box {
-  @apply overflow-hidden;
+  @apply overflow-hidden xl:h-[320px];
 }
 .blog__content-img {
   @apply w-full h-full;
