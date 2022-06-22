@@ -13,7 +13,7 @@
     @apply py-28;
   }
   .section-title {
-    @apply text-[42px] text-black font-bold leading-title mb-4;
+    @apply text-[42px] text-black font-bold leading-title mb-4 xs:text-[52px];
   }
   .section-text {
     @apply text-[19px] text-grey mb-8;
@@ -80,7 +80,7 @@
   @apply grid gap-4 p-10 bg-[#eae4dc];
 }
 .feature__content-title {
-  @apply text-[36px] text-black font-bold leading-title mb-4;
+  @apply text-[36px] text-black font-bold leading-title mb-4 xs:text-[42px];
 }
 .feature__content-text {
   @apply text-[19px] text-grey font-medium mb-8;
@@ -143,7 +143,7 @@
   @apply inline-flex text-[19px] text-yellow font-bold mb-2;
 }
 .blog__content-title {
-  @apply text-[36px] text-black font-bold leading-title mb-4;
+  @apply text-[36px] text-black font-bold leading-title mb-4 xs:text-[42px];
 }
 .blog__content-text {
   @apply text-[19px] text-grey mb-4;
