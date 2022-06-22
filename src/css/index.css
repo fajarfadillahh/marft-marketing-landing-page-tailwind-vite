@@ -192,3 +192,14 @@
 ::selection {
   @apply bg-yellow bg-opacity-80 text-black;
 }
+
+/* ===== SCROLL BAR ===== */
+::-webkit-scrollbar {
+  @apply w-[8px] bg-grey bg-opacity-20;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-grey bg-opacity-50;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-grey bg-opacity-100;
+}
