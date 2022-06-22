@@ -50,6 +50,10 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+/* sticky header */
+.header.sticky-action {
+  @apply bg-white shadow-[0_0_12px_rgba(0,0,0,0.1)];
+}
 
 /* ===== ABOUT SECTION ===== */
 .about__title,
