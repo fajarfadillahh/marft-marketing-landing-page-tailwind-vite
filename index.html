@@ -29,14 +29,19 @@
       id="header"
     >
       <div
-        class="header__container container h-24 flex justify-between items-center"
+        class="header__container container h-24 flex justify-between items-center lg:relative"
       >
-        <a href="#" class="header__logo text-[28px] text-black font-bold"
+        <a
+          href="#"
+          class="header__logo text-[28px] text-black font-bold lg:absolute lg:left-[50%] lg:translate-x-[-50%]"
           >Marft.</a
         >
 
-        <div class="header__menu" id="header-menu">
-          <ul class="header__list flex flex-col gap-6">
+        <div
+          class="header__menu md:flex md:items-center md:gap-6 lg:w-full lg:justify-between"
+          id="header-menu"
+        >
+          <ul class="header__list flex flex-col gap-6 md:flex-row">
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
             </li>
@@ -68,7 +73,7 @@
         </div>
 
         <div
-          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer"
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer md:hidden"
           id="header-toggle"
         >
           <i class="bx bx-menu"></i>
@@ -79,9 +84,11 @@
 
     <main class="main overflow-hidden">
       <!-- ===== HOME SECTION ===== -->
-      <section class="home section bg-[#f8f3ec]" id="home">
-        <div class="home__container container grid gap-12">
-          <div class="home__data justify-self-center sm:w-[500px]">
+      <section class="home section bg-[#f8f3ec] lg:pt-36" id="home">
+        <div
+          class="home__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
+          <div class="home__data justify-self-center sm:w-[500px] lg:w-auto">
             <h1 class="home__title section-title">
               Increase your <br />
               performance on <br />
@@ -105,7 +112,7 @@
           <img
             src="./src/img/home-img.png"
             alt=""
-            class="home__img justify-self-center sm:w-[500px]"
+            class="home__img justify-self-center sm:w-[500px] lg:w-auto"
           />
         </div>
       </section>
@@ -113,9 +120,11 @@
 
       <!-- ===== PARTNER SECTION ===== -->
       <section class="partner section">
-        <div class="partner__container container grid gap-12">
+        <div
+          class="partner__container container grid gap-12 lg:grid-cols-[.8fr_1fr] lg:items-center"
+        >
           <div
-            class="partner__data pl-6 border-l-4 border-solid border-yellow justify-self-center sm:w-[500px]"
+            class="partner__data pl-6 border-l-4 border-solid border-yellow justify-self-center sm:w-[500px] lg:w-auto"
           >
             <h1
               class="partner__title text-[36px] text-black font-bold leading-title mb-4 xs:text-[42px]"
@@ -143,8 +152,10 @@
 
       <!-- ===== ABOUT SECTION ===== -->
       <section class="about section bg-black">
-        <div class="about__container container grid gap-12">
-          <div class="about__data justify-self-center sm:w-[500px]">
+        <div
+          class="about__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
+          <div class="about__data justify-self-center sm:w-[500px] lg:w-auto">
             <h1 class="about__title section-title">
               Take your social <br />
               media marketing to <br />
@@ -178,7 +189,7 @@
           <img
             src="./src/img/about-img.png"
             alt=""
-            class="about__img justify-self-center sm:w-[500px]"
+            class="about__img justify-self-center sm:w-[500px] lg:w-auto lg:-order-1"
           />
         </div>
       </section>
@@ -455,12 +466,16 @@
       <section class="callback section bg-black">
         <div class="callback__container container grid gap-4">
           <div
-            class="callback__data text-center justify-self-center sm:w-[500px]"
+            class="callback__data text-center justify-self-center sm:w-[500px] lg:w-auto"
           >
-            <h1 class="callback__title section-title text-white">
+            <h1
+              class="callback__title section-title text-white lg:w-[700px] lg:mx-auto"
+            >
               Ready to increase your social media performance
             </h1>
-            <p class="callback__text section-text text-white">
+            <p
+              class="callback__text section-text text-white lg:w-[500px] lg:mx-auto"
+            >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
               ipsum provident tenetur dignissimos placeat tempora.
             </p>
@@ -478,17 +493,21 @@
       <!-- ===== BLOG SECTION ===== -->
       <section class="blog section">
         <div class="blog__container container grid gap-12">
-          <div class="blog__wrapper justify-self-center sm:w-[500px]">
+          <div
+            class="blog__wrapper justify-self-center sm:w-[500px] lg:w-full lg:flex lg:justify-between lg:items-center"
+          >
             <div class="blog__wrapper-data">
               <h1 class="blog__wrapper-title section-title">Read our blogs</h1>
-              <p class="blog__wrapper-text section-text">
+              <p class="blog__wrapper-text section-text mb-0 lg:w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Consectetur quaerat, assumenda atque porro temporibus nisi fugit
                 reprehenderit repudiandae tempore quas.
               </p>
             </div>
 
-            <a href="#" class="blog__wrapper-button button-fill inline-flex"
+            <a
+              href="#"
+              class="blog__wrapper-button button-fill inline-flex lg:justify-end"
               >Read Our Blogs</a
             >
           </div>
@@ -609,17 +628,17 @@
           <div
             class="footer__list grid grid-cols-[repeat(auto-fit,_minmax(260px,_max-content))] gap-8"
           >
-            <div class="footer__list-item">
+            <div class="footer__list-item lg:justify-self-center">
               <h3 class="footer__list-title">DM us on:</h3>
               <p class="footer__list-text">info@marft.com</p>
             </div>
-            <div class="footer__list-item">
+            <div class="footer__list-item lg:justify-self-center">
               <h3 class="footer__list-title">Call us on:</h3>
               <p class="footer__list-text">
                 (+62) 8901 2345 6789 <br />(+62) 8901 2345 6789
               </p>
             </div>
-            <div class="footer__list-item">
+            <div class="footer__list-item lg:justify-self-center">
               <h3 class="footer__list-title">Find us:</h3>
               <p class="footer__list-text">
                 Pantai Indah Kapuk, <br />Jakarta Utara
@@ -628,7 +647,9 @@
           </div>
         </div>
 
-        <div class="footer__copy grid justify-self-center text-center gap-6">
+        <div
+          class="footer__copy grid justify-self-center text-center gap-6 lg:w-full lg:flex lg:justify-between lg:items-center"
+        >
           <p class="footer__copy-rights text-[19px] text-grey">
             ©Copyright - Marft 2022, All rights reserved.
           </p>
