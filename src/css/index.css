@@ -167,3 +167,11 @@
 .footer__list-text {
   @apply text-[32px] text-grey leading-[100%];
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup {
+  @apply fixed right-6 -bottom-full w-[45px] h-[45px] inline-flex justify-center items-center p-[.1rem] bg-yellow bg-opacity-80  text-[1.3rem] text-black transition-all duration-400 hover:bg-opacity-100;
+}
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
