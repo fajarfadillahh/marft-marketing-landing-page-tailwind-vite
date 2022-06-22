@@ -13,7 +13,7 @@
     @apply py-28;
   }
   .section-title {
-    @apply text-[42px] text-black font-bold leading-title mb-4 xs:text-[52px];
+    @apply text-[42px] text-black font-bold leading-title mb-4 xs:text-[50px];
   }
   .section-text {
     @apply text-[19px] text-grey mb-8;
@@ -53,6 +53,14 @@
 /* sticky header */
 .header.sticky-action {
   @apply bg-white shadow-[0_0_12px_rgba(0,0,0,0.1)];
+}
+
+/* ===== ABOUT SECTION ===== */
+.partner__group {
+  @apply grid grid-cols-[repeat(2,_max-content)] justify-center gap-6;
+}
+.partner__img {
+  @apply w-[200px] sm:w-[240px];
 }
 
 /* ===== ABOUT SECTION ===== */
